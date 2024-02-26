@@ -1,1 +1,25 @@
 /* Styles only for sidebar*/
+
+/* Estilos para el sidebar */
+/* Estilos para el sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh; /* Cambiado a 100% de la altura de la ventana */
+    width: 250px; /* Ancho del sidebar */
+    padding: 20px;
+    background-color: #343a40; /* Color de fondo del sidebar */
+
+    overflow-y: auto; /* Permitir desplazamiento vertical si el contenido excede el tamaño del sidebar */
+  }
+  
+  /* Estilos para el contenido principal */
+  .content {
+    margin-left: 250px; /* Ancho del sidebar */
+    padding: 20px;
+  }
+
+  .user-slider{
+    
+  }
